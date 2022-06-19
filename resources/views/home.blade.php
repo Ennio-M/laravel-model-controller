@@ -3,13 +3,13 @@
 @section('pageTitle', 'Boolflix - Home')
 
 @section('mainContent')
-    <main>
+    <main class="pb-5">
         <div class="container">
             <div class="row row-cols-4 g-4">
                 @foreach ($movies as $movie)
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <div class="card-header">
+                            <div class="card-header _cardTitle">
                                 {{$movie->title}}
                             </div>
                             <ul class="list-group list-group-flush">

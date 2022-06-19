@@ -10228,3 +10228,39 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  position: relative;
+}
+
+header {
+  height: 70px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+main {
+  padding-top: 116px;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  top: 70px;
+  right: 0;
+  bottom: 50px;
+  left: 0;
+  background-image: url(../imgs/bg_movies.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.4;
+}
+
+._cardTitle {
+  font-weight: 700;
+  text-decoration: underline;
+}

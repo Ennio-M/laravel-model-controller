@@ -1,0 +1,20 @@
+main{
+    padding-top: 116px;
+}
+main::before{
+    content: "";
+    position: absolute;
+    top: 70px;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    background-image: url(../imgs/bg_movies.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .4;
+}
+._cardTitle{
+    font-weight: 700;
+    text-decoration: underline;
+}
